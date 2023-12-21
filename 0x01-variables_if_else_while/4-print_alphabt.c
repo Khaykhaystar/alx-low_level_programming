@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	char ch;
 
@@ -16,7 +16,7 @@ int main (void)
 		{
 			continue;
 		}
-			else if (ch == 'q') 
+			else if (ch == 'q')
 			{
 				continue;
 			}
