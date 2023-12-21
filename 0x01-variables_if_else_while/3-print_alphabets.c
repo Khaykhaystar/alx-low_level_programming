@@ -18,6 +18,7 @@ int main(void)
 		while (al <= 'Z')
 		{
 			putchar(al);
+			al++;
 		}
 	putchar('\n');
 	return (0);
