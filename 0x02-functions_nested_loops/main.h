@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <unistd.h>
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - entry point
  *
