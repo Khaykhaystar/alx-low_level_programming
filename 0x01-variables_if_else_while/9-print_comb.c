@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * @Description: A code to print single digit numbers
  *
+ * Return: Always 0
  */
 
 int main(void)
@@ -23,7 +23,6 @@ int main(void)
 			putchar(' ');
 
 		}
-				
 	}
 	return (0);
 }
