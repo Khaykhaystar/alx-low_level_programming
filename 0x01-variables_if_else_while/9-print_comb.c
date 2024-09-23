@@ -16,12 +16,13 @@ int main(void)
 		if (i < '9')
 		{
 			putchar(',');
+			putchar(' ');
 		}
 		else
 		{
-			break;
+			putchar(' ');
+
 		}
-		putchar(' ');
 				
 	}
 	return (0);
