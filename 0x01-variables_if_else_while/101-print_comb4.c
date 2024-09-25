@@ -21,11 +21,12 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-			
-		//since 8 and 9 are the last numbers for each respective loops
-		//To remove the comma after the last number
+		/**
+		 * since 8 and 9 are the last numbers for each respective loops
+		 * To remove the comma after the last number
+		 */
 				if ((i == '7') && (j == '8') && (k == '9'))
-				{	
+				{
 					putchar('\n');
 				}
 				else
@@ -35,9 +36,7 @@ int main(void)
 				};
 			}
 		}
-	}	
-		
-	
+	}
 	return (0);
 }
 
