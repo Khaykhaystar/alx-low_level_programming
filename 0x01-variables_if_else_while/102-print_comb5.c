@@ -12,11 +12,12 @@ bool checker(int c);
 int main(void)
 {
 	int i = 0;
+	int l;
 
 
 	for (i = 0; i < 100; i++)
 	{
-		for (int l = 1; l < 100; l++)
+		for (l = 1; l < 100; l++)
 		{
 			if (checker(i) == true) {
 				putchar(i/10 + '0');
@@ -42,10 +43,6 @@ int main(void)
 		}
 	}
 	return 0;
-}
-
-void print_val(int i) {
-
 }
 
 
